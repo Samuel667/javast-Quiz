@@ -1,0 +1,17 @@
+.HighScores{
+text-align: center;
+}
+.text{
+	padding:4rem;
+	margin-bottom:10rem;
+	color:green;
+}
+#BestScores{
+	font-family:roboto;
+	font-size:50px;
+	color:gold;
+	margin-bottom:12rem;
+
+}
+
+

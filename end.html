@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>endQuiz</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+<div id="end" class="flex-center flex-column"> 
+	<h1 id="finalScore">0</h1>
+	<form class="end-form-container"> 
+		<h2 id="end-text">Enter your name below to save your score</h2>
+		<center>
+		<h1><input type="text" name="name" id="usersname" value=""  minlength="3"  placeholder=" Enter your name"/></h1><br>
+		<button class="btn" id="saveScoreBtn"  type="submit" disabled onclick="saveHighScore(event)">Save</button> 
+	    </center>
+	</form>
+	<a href="game.html" class="btn">Play Again </a>
+	<a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
+</div> 
+</div>
+<script src="end.js"></script>		
+																
+</body>
+</html>
